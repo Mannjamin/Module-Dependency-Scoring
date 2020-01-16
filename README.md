@@ -5,14 +5,11 @@ A basic script to get the maximum and minimum relationships of nodes
 A Module Depenedency Graph is a symmetrical directed graph which represents the relationships within software classes within a software system. Given a list of all known relationships (such as Main.java and ArrayList.java) and so on, you can take those relationships to make a basic Module Dependency Graph.
 
 Example:
+
 Relationships:
-Main.java - ArrayList.java
-ArrayList.java - Object.java
 
 Module Dependency Graph Equivalent:
-0 1 0
-1 0 1
-0 1 0
+
 
 ## Maximum Relationship:
 To calculate the maximum relationships, assuming every, node, has a relationship. The following equation can be used. 
